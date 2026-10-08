@@ -32,5 +32,25 @@ export const projects = [
     liveDemo: '#',
     github: '#',
     image: '/images/cafe-preview.png'
+  },
+  {
+    id: 'tripcraft',
+    badge: 'Full Stack • React + Node',
+    title: 'TripCraft',
+    subtitle: 'Trip Planner Web',
+    description: 'A full-stack travel planning web app for discovering destinations, building day-by-day itineraries, managing group trips, tracking expenses, and getting AI-assisted suggestions.',
+    techTags: ['React', 'TypeScript', 'Tailwind CSS', 'Node.js', 'Express', 'Sequelize', 'MySQL', 'AWS S3', 'Google OAuth', 'JWT'],
+    features: [
+      'Destination discovery and search',
+      'Trip creation with day-by-day itinerary planning',
+      'Collaborative trips with members, voting and expense tracking',
+      'Photo uploads via AWS S3',
+      'Packing lists and journal entries',
+      'AI-assisted itinerary and packing suggestions',
+      'Google OAuth + JWT authentication'
+    ],
+    liveDemo: '#',
+    github: '#',
+    image: '/images/tripcraft-preview.png'
   }
 ];

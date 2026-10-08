@@ -27,7 +27,7 @@ const ProjectCard = ({ project, index }) => {
       <div className="aspect-video bg-surface-2 overflow-hidden">
         <div className="w-full h-full flex items-center justify-center">
           <div className="text-6xl opacity-20 group-hover:opacity-30 transition-opacity">
-            {project.id === 'musify' ? '🎵' : '☕'}
+            {project.id === 'musify' ? '🎵' : project.id === 'cafemanager' ? '☕' : project.id === 'tripcraft' ? '✈️' : '🚀'}
           </div>
         </div>
       </div>
