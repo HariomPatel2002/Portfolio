@@ -7,10 +7,10 @@ import { Button } from './ui/Button';
 import emailjs from '@emailjs/browser';
 
 const contactInfo = [
-  { icon: Mail, label: 'Email', value: 'your@email.com' },
-  { icon: Link, label: 'LinkedIn', value: 'linkedin.com/in/yourname' },
-  { icon: GitFork, label: 'GitHub', value: 'github.com/yourname' },
-  { icon: MapPin, label: 'Location', value: 'India (Open to Remote)' }
+  { icon: Mail, label: 'Email', value: 'patelhariom700025@gmail.com' },
+  { icon: Link, label: 'LinkedIn', value: 'https://www.linkedin.com/in/hariom-patel-74b0b124a/' },
+  { icon: GitFork, label: 'GitHub', value: 'https://github.com/HariomPatel2002' },
+  { icon: MapPin, label: 'Location', value: 'Sinhasha, IT Park, Plot No 31 & 34, Indore - Dhar Rd, Sinhasa, Indore, Madhya Pradesh 452009' }
 ];
 
 export const Contact = () => {

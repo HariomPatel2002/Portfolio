@@ -11,9 +11,13 @@ export const Button = ({ children, variant = 'primary', href, className = '', ..
 
   const Component = href ? motion.a : motion.button;
 
+  const isExternalLink = typeof href === 'string' && /^https?:\/\//.test(href);
+
   return (
     <Component
       href={href}
+      target={isExternalLink ? '_blank' : undefined}
+      rel={isExternalLink ? 'noreferrer' : undefined}
       whileHover={{ scale: 1.02 }}
       whileTap={{ scale: 0.98 }}
       className={`${baseStyles} ${variants[variant]} ${className}`}
