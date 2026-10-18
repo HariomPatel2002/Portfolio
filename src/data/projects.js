@@ -13,7 +13,7 @@ export const projects = [
       'Admin dashboard + iTunes API integration'
     ],
     liveDemo: '#',
-    github: '#',
+    github: 'https://github.com/HariomPatel2002/Musify',
     image: '/images/musify-preview.png'
   },
   {
@@ -30,7 +30,7 @@ export const projects = [
       'Sales reports + analytics dashboard'
     ],
     liveDemo: '#',
-    github: '#',
+    github: 'https://github.com/HariomPatel2002/cafe-manager',
     image: '/images/cafe-preview.png'
   },
   {
@@ -50,7 +50,7 @@ export const projects = [
       'Google OAuth + JWT authentication'
     ],
     liveDemo: '#',
-    github: '#',
+    github: 'https://github.com/HariomPatel2002/trip-planner-web',
     image: '/images/tripcraft-preview.png'
   }
 ];

@@ -34,9 +34,6 @@ export const About = () => {
                 </div>
               </div>
             </div>
-            <div className="absolute -bottom-4 -right-4 bg-surface border border-border rounded-lg px-4 py-2">
-              <span className="text-accent font-mono text-sm">2+ Projects Built</span>
-            </div>
           </motion.div>
 
           <motion.div

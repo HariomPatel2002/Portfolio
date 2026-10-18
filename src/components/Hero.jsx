@@ -4,7 +4,7 @@ import { TypeAnimation } from 'react-type-animation';
 import { GreenBadge } from './ui/Badge';
 import { Button } from './ui/Button';
 
-const techPills = ['React', 'Angular', 'Node.js', 'MongoDB', 'Tailwind'];
+const techPills = ['React', 'Angular', 'Node.js', 'MySql', 'MongoDB', 'Tailwind'];
 
 export const Hero = () => {
   return (
@@ -113,7 +113,7 @@ export const Hero = () => {
           <Button variant="primary" href="#projects">
             View Projects
           </Button>
-          <Button variant="secondary" href="/cv.pdf" download>
+          <Button variant="secondary" href="/Hariom_Patel_Resume.pdf" download>
             <Download size={18} />
             Download CV
           </Button>
